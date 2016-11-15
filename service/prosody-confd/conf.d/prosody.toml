@@ -1,0 +1,9 @@
+[template]
+prefix="/prosody"
+src="prosody.cfg"
+dest="/etc/prosody/conf.d/vhost.cfg.lua"
+keys = [ 
+	"/",
+]
+
+reload_cmd="sv restart prosody"
